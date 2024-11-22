@@ -6,7 +6,7 @@ body {
 header {
     height: 60px;
 
-    background-color: sandybrown;
+    background-color: #808000;
     border: 6px solid black;
 }
 
@@ -33,7 +33,7 @@ header {
 
     display: inline-block;
 
-    background-color: red;
+    background-color: #FF0B0C;
     border: 4px solid black;
 }
 
@@ -56,7 +56,7 @@ header {
     height: 15px;
 
 
-    background-color: blue;
+    background-color: #00F;
     border: 4px solid black;
 }
 
@@ -89,7 +89,7 @@ header {
     width: 180px;
     height: 400px;
 
-    background-color: blue;
+    background-color: #00F;
     border: 4px solid black;
 
 }
