@@ -12,12 +12,13 @@
 
 body {
     margin: 0;
-    font-family: Arial sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .header {
     height: 60px;
     grid-area: header;
+    border-bottom: 4px solid black;
     background-color: var(--header-color);
 }
 
@@ -60,7 +61,7 @@ body {
 
 .line {
     width: 120px;
-    height: 15px;
+    height: 20px;
 
 
     background-color: var(--line-color);
