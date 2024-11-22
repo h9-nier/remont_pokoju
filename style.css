@@ -5,22 +5,18 @@ body {
 
 header {
     height: 60px;
-
     background-color: #808000;
-    border: 6px solid black;
 }
 
 .grid-container {
     background-color: #007F00;
     padding-bottom: 50px;
-    border: 4px solid black;
     border-top: none;
 }
 
 .top-column {
     padding: 80px 0 80px 15px;
     grid-area: col1;
-
 }
 .squares-container {
     display: inline-block;
@@ -30,11 +26,9 @@ header {
 .square {
     width: 100px;
     height: 100px;
-
     display: inline-block;
 
     background-color: #FF0B0C;
-    border: 4px solid black;
 }
 
 .square-offset {
@@ -57,7 +51,6 @@ header {
 
 
     background-color: #00F;
-    border: 4px solid black;
 }
 
 #line-1 {
@@ -75,7 +68,6 @@ header {
     width: 90px;
     height: 80px;
 
-    border: 4px solid black;
     border-radius: 100%;
     background-color: #00817F;
 }
@@ -144,4 +136,14 @@ header {
     .rectangle {
         background-color: white;
     }
+}
+
+.border-thick {
+    border: 6px solid black;
+    box-sizing: border-box;
+}
+
+.border-thin {
+    border: 4px solid black;
+    box-sizing: border-box;
 }
