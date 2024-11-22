@@ -5,7 +5,7 @@
     --line-color: #00F;
     --oval-color: #00817F;
     --rectangle-1-color: blue;
-    --rectangle-2-color: red;
+    --rectangle-2-color: #DA212E;
     --rectangle-3-color: white;
 }
 
@@ -38,15 +38,15 @@ body {
 }
 
 .square {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     display: inline-block;
 
     background-color: var(--square-color);
 }
 
 .square-offset {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .middle-column {
