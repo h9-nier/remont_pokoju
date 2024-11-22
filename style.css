@@ -15,8 +15,9 @@ body {
     font-family: Arial sans-serif;
 }
 
-header {
+.header {
     height: 60px;
+    grid-area: header;
     background-color: var(--header-color);
 }
 
@@ -110,7 +111,8 @@ header {
 @media only screen and (max-width: 582px) {
     .grid-container {
         display: grid;
-        grid-template-areas: 'col1'
+        grid-template-areas: 'header'
+                             'col1'
                              'col2'
                              'col3';
     }
@@ -124,7 +126,8 @@ header {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 'col1 col3'
+        grid-template-areas: 'header header'
+                             'col1 col3'
                              'col2 col3';
     }
 
@@ -138,7 +141,8 @@ header {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 'col1 col2 col3';
+        grid-template-areas: 'header header header'
+                             'col1 col2 col3';
     }
 
     .middle-column {
